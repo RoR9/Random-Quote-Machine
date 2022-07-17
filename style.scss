@@ -14,7 +14,7 @@ body{
 }
 
 .quote_machine {
-    
+    position: relative;
     margin:20px;
     
 }
@@ -111,3 +111,15 @@ body{
   }
 
 
+.quote_creator {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(0,5rem);
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: underline;
+}

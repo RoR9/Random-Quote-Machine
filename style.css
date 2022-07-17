@@ -16,6 +16,7 @@ body {
 }
 
 .quote_machine {
+  position: relative;
   margin: 20px;
 }
 
@@ -138,5 +139,25 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.quote_creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-transform: translate(0, 5rem);
+          transform: translate(0, 5rem);
+  color: #fff;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
